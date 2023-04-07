@@ -1,0 +1,8 @@
+// Literal strings to be displayed with FreeMono12pt and
+// included in 9-ili9225_gfx8_clock.cpp with the following
+// directive
+//
+// #include "../lib/gfx8/examples/ili9225/stringconsts_clock.h"
+//
+#define AM_STR "am" // "am"
+#define PM_STR "pm" // "pm"     

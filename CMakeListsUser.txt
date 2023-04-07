@@ -1,0 +1,3 @@
+include_directories("$ENV{HOME}/CLionProjects/epdmeteo/lib/GxEPD2-master/src")
+include_directories("$ENV{HOME}/CLionProjects/epdmeteo/lib/esphome/core")
+include_directories("$ENV{HOME}/CLionProjects/epdmeteo/lib/gfx8/lib/gfx8/src")

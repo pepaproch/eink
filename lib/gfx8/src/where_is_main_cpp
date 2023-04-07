@@ -1,0 +1,7 @@
+Grab any example or test file in ../lib/gfx8 and copy it to this src/ directory and compile.
+
+Don't forget to set default_envs in the platformio.ini file to d1_mini or nodemcuv2 
+  [platformio]
+  default_envs = xxxx
+
+There should be only one *.cpp file in src/ but it does not have to be named main.cp. 

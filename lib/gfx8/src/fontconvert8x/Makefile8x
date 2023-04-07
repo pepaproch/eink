@@ -1,0 +1,12 @@
+all: fontconvert8x
+
+CC     = gcc
+CFLAGS = -Wall -I/usr/local/include/freetype2 -I/usr/include/freetype2 -I/usr/include
+LIBS   = -lfreetype
+
+fontconvert8x: fontconvert8x.c
+	$(CC) $(CFLAGS) $< $(LIBS) -o $@
+	strip $@
+
+clean:
+	rm -f fontconvert8x

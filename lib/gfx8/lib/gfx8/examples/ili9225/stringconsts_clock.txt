@@ -1,0 +1,2 @@
+#define AM_STR "am" // "am"     
+#define PM_STR "pm" // "pm"     
